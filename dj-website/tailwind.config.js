@@ -8,7 +8,6 @@ export default {
     },
     colors: {
       black: "#444444",
-      "retro-red": "#F30067",
     },
     extend: {},
   },
