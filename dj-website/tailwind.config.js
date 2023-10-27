@@ -5,6 +5,7 @@ export default {
     fontFamily: {
       pacifico: ["Pacifico", "cursive"],
       beau: ["Beau Rivage", "cursive"],
+      // neon: ["Neon Lights"]
     },
     colors: {
       black: "#444444",

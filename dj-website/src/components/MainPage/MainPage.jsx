@@ -1,4 +1,5 @@
 import instagram from "../../assets/instagram.svg";
+import logoName from '../../assets/logoName.svg'
 import soundCloud from "../../assets/soundCloudIcon.svg";
 import tikTok from "../../assets/tiktok.svg";
 
@@ -6,7 +7,11 @@ const MainPage = () => {
   return (
     <main className="flex flex-row justify-center items-center h-screen ">
       <div className=" flex flex-col justify-center items-center  ">
-        <h1 className=" text-8xl font-pacifico text-[#F30067] ">KMSTRY</h1>
+        {/* <h1 className=" text-8xl font-pacifico text-[#F30067] ">KMSTRY</h1> */}
+        {/* <img src="https://see.fontimg.com/api/renderfont4/3zRBM/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/S01TVFJZ/attack-graffiti.png" alt="Graffiti fonts" /> */}
+        {/* <img src="https://see.fontimg.com/api/renderfont4/22d/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/S01TVFJZ/neon-lights.png" alt="" /> */}
+        <img className=" w-full h-32  " src={logoName} alt="" />
+        {/* <h1 className="">KMSTRY</h1> */}
         <p className="text-[#EAEAEA] mt-4">( keh · muh · stree )</p>
         <div className="flex flex-row justify-center items-center gap-20 mt-4  ">
           <a href="">
@@ -20,7 +25,7 @@ const MainPage = () => {
           </a>
         </div>
       </div>
-    </main>
+    </main >
   );
 };
 
