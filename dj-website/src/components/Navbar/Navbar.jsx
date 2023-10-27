@@ -7,7 +7,8 @@ const Navbar = () => {
       <ul className="flex flex-row  gap-10 text-lg  ">
         <li>Home</li>
         <li>About</li>
-        <li>Social Media</li>
+        <li>Mixes</li>
+        <li>Contact</li>
       </ul>
     </nav>
   );

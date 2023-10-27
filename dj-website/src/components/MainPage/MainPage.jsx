@@ -4,12 +4,11 @@ import tikTok from "../../assets/tiktok.svg";
 
 const MainPage = () => {
   return (
-    <main className="flex flex-row justify-center items-center   h-screen ">
-      <div className=" flex flex-col justify-center items-center border-1 shadow-2xl rounded-xl shadow-[#00D1CD]  h-5/6  w-5/6 ">
+    <main className="flex flex-row justify-center items-center h-screen ">
+      <div className=" flex flex-col justify-center items-center  ">
         <h1 className=" text-8xl font-pacifico text-[#F30067] ">KMSTRY</h1>
         <p className="text-[#EAEAEA] mt-4">( keh · muh · stree )</p>
-
-        <div className="flex flex-row justify-center items-center gap-20 pt-4 ">
+        <div className="flex flex-row justify-center items-center gap-20 mt-4  ">
           <a href="">
             <img className=" h-16 " src={soundCloud} alt="soundcloud" />
           </a>
