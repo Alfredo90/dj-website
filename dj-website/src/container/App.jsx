@@ -1,5 +1,6 @@
 import About from "../components/About/About";
 import MainPage from "../components/MainPage/MainPage";
+import Mixes from "../components/Mixes/Mixes";
 import Navbar from "../components/Navbar/Navbar";
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <MainPage />
       <About />
+      <Mixes />
     </div>
   );
 };
