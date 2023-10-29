@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className=" flex flex-col justify-center items-center h-screen w-screen border-2 gap-10">
+    <section className=" flex flex-col justify-center items-center h-screen w-screen  gap-10 ">
       <h1 className="text-5xl">About Me</h1>
-      <p className="line-clamp-4 border-2 text-left w-2/4 h-2/4 text-2xl flex">
+      <p className="text-justify w-2/4 h-2/4 text-2xl leading-relaxed indent-8  ">
         "As a dedicated disc jockey, I've had the privilege of spinning tunes
         for a decade now, and the journey has been nothing short of
         exhilarating. Over the years, I've fine-tuned my craft, blending genres
@@ -16,7 +16,7 @@ const About = () => {
         committed to making your special moments even more memorable. I'm
         excited to continue this musical journey with you, so don't hesitate to
         reach out. Let's make magic together on the dance floor, creating
-        memories that will last a lifetime.""
+        memories that will last a lifetime."
       </p>
     </section>
   );
